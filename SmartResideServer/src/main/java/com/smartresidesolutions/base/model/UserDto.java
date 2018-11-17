@@ -2,7 +2,7 @@ package com.smartresidesolutions.base.model;
 
 public class UserDto {
 
-	/*//long id;
+	/*  yy//long id;
 	public long getId() {
 		return id;
 	}
