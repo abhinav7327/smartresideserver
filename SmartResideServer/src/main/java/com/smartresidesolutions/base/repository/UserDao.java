@@ -1,15 +1,15 @@
 package com.smartresidesolutions.base.repository;
 
 import com.smartresidesolutions.base.model.UserDto;
-import com.smartresidesolutions.entities.User;
+import com.smartresidesolutions.entities.UserEntity;
 
 public interface UserDao {
 
 	
-	public User getUser();
+	public UserEntity getUser(UserDto userDto);
 	
-	public void saveUser(User user);
+	public void saveUser(UserEntity user);
 	
-	public void deleteUser(User user);
+	public void deleteUser(UserEntity user);
 	
 }

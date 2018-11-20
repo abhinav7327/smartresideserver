@@ -7,7 +7,7 @@ import com.smartresidesolutions.base.model.UserDto;
 @Service
 public interface UserService {
 
-	public UserDto getUser();
+	public UserDto getUser(UserDto userDto);
 	
 	public void saveUser(UserDto user);
 	
